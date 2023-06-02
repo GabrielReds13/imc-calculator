@@ -2,6 +2,7 @@
 
 public static class Validation
 {
+    // Metodos
     public static bool ValidateCPF(string cpf)
     {
         // Variaveis
