@@ -37,7 +37,7 @@ public class Person
         else if (imc <= 39.9) { classification = "obese"; degree = 2; }
         else if (imc > 40) { classification = "severe obesity"; degree = 3; }
 
-        // Return
+        // Return items
         return (imc, classification, degree);
     }
 
